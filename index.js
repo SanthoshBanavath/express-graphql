@@ -2,7 +2,6 @@ const express = require('express');
 const {graphqlHTTP} = require('express-graphql');
 const gql = require('graphql-tag');
 const {makeExecutableSchema} = require('graphql-tools');
-const { async } = require('regenerator-runtime');
 
 const app = express();
 
